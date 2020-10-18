@@ -1,20 +1,26 @@
 // テーマカラー
 $primary-color: #00c0c0;
-$primary-color-d: #2fb0b3; //ダークモード用
+$primary-color-d: #2fb0b3; //ダークテーマ用
 $primary-light-color: #9ef0ea;
 $primary-pale-color: #effbfa;
 $sponsor-color: #1a1d32;
 $light-blue: #ace7f9;
 $yellow-orange: #f2b456;
-$yellow-orange-d: #e4bb69; //ダークモード用
+$yellow-orange-d: #e4bb69; //ダークテーマ用
 $yellow-orange-light: #fdd17b; //このあたりのイエローオレンジがsecandary-colorになるかも
 $white: #fff;
+$base-color-d: #1e1e1e; //ダークテーマ用
+$surface-color-d: #292929; //ダークテーマ用
+$upper-color-d: #3a3a3a; //ダークテーマ用
 
 // テキスト用のカラー
 $main-text-color: #777;
+$main-text-color-d: #f0f0f0; //ダークテーマ用
 $emphasis-text-color: #6e6e6e;
 $sub-text-color: #a5a5a5;
+$sub-text-color-d: #9d9d9d; //ダークテーマ用
 $link-text-color: #485fd3;
+$link-text-color-d: #6880f8; //ダークテーマ用
 
 // element（要素）用のカラー
 $element-denger: #f05033;
