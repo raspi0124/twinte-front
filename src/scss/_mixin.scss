@@ -170,14 +170,14 @@
 }
 
 @mixin landscape {
-  @media screen and (orientation: landscape) {
+  @media screen and (min-width: 678px) and(orientation: landscape) {
     // 画面が横向きの場合
     @content;
   }
 }
 
 @mixin portrait {
-  @media screen and (orientation: portrait) {
+  @media screen and (orientation: portrait), (max-width: 677px) {
     // 画面が縦向きの場合
     @content;
   }
